@@ -61,3 +61,6 @@ Route::group(['prefix'=>'MyGroup'],function(){
         echo "User3";
     });
 });
+
+//gọi controller
+Route::get('GoiController','App\Http\Controllers\MyController@XinChao');
